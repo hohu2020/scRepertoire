@@ -288,6 +288,11 @@ lengthContig <- function(df, cloneCall = "aa", group = NULL, scale = FALSE,
 #' @export
 #' @return ggplot of the proportion of total sequencing read of 
 #' selecting clonotypes
+
+# hongxing: would like to add 
+  # 1. "H-vdj_L-vdj" to cloneCall
+  # 2. ...
+
 compareClonotypes <- function(df, cloneCall = "gene+nt", chain = "both", samples = NULL, 
                         clonotypes = NULL, numbers = NULL, graph = "alluvial",
                         exportTable = FALSE){
